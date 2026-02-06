@@ -6,7 +6,7 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   const handleIncrease = () => {
-    setCount((pre) => pre + 1);
+    count <= 10 && setCount(count + 1);
   };
 
   const handleDecrease = () => {
